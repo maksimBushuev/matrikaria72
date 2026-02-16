@@ -42,9 +42,10 @@
             </div>
         </div>
     </main>
-    <div  id="model_img" class="w3-modal w3-white" w3-include-html="content/windows.html"></div>
-    <div  id="model_zakaz" class="w3-modal w3-sand" w3-include-html="content/windZakaz.html"></div>
+    <div  id="model_img" class="w3-modal w3-sand w3-animate-zoom" w3-include-html="content/windows.html"></div>
+    <div  id="model_zakaz" class="w3-modal w3-sand w3-animate-zoom" w3-include-html="content/windZakaz.html"></div>
 <script src="/js/flow4.js" defer></script>
 <script src="/js/js.js" defer></script>
 </body>
+
 </html>
