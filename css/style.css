@@ -1,0 +1,51 @@
+
+#header{
+
+    min-height: 100px;
+}
+#header_logo > img{
+    min-width: 170px;
+    max-width: 250px;
+}
+#nav{
+    position: sticky;
+    top: 0;
+}
+#nav > div > a:last-child{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#nav > div > a{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.menu_button{
+    width: 45%;
+    background-color: rgb(246, 240, 255);
+}
+.main_flex{
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.main_flex_div{
+    padding-top: 10px;
+    min-width: 240px;
+    max-width: 350px;
+    background-color: rgb(246, 240, 255);
+    color: black;
+}
+.main_flex_div > img{
+    width: 100%;
+}
+/* w3-modal-content */
+#model_img {
+    min-width: 400px ;
+    text-align: center;
+}
+#asa{
+    cursor: pointer;
+}
+#w3-modalZakaz{
+    background-color: rgb(246, 240, 255);
+}

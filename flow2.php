@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Штучные цветы</title>
+    <link rel="stylesheet" href="/css/w3.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body class="w3-sand">
+    <!-- <header id="header" class="w3-row w3-padding w3-blue">
+        <div id="header_logo" class="w3-col s6 w3-green w3-center">
+            <img src="/img/logo.png" class="" alt="Norway" style="width:30%">
+        </div>
+        <div class="w3-col s6 w3-dark-grey w3-center">
+            <p><a class="w3-button  w3-text-deep-purple w3-border w3-border-deep-purple w3-round-large w3-hover-deep-purple w3-wide"  href="tel:+79292139099">позвонить</a></p>
+            <p>+7-(929)-213-90-99</p>
+            <p>matrikaria72@mail.ru</p>
+        </div>
+    </header> -->
+    <nav id="nav" class="w3-container w3-bar w3-center w3-sand">
+        <div class=" w3-half ">
+            <a href="/index.html" class="w3-button w3-padding-large  w3-border w3-border-deep-purple  w3-round  w3-padding  w3-hover-deep-purple menu_button ">Букеты</a>
+            <a href="/flow2.php" class="w3-button w3-padding-large  w3-border w3-border-deep-purple  w3-round  w3-padding w3-deep-purple w3-hover-deep-purple menu_button ">Штучные цветы</a>
+        </div>
+        <div class=" w3-half">
+            <a href="/flow3.php" class="w3-button w3-padding-large  w3-border w3-border-deep-purple  w3-round  w3-padding  w3-hover-deep-purple menu_button ">Композиции</a>
+            <a href="/flow4.php" class="w3-button w3-padding-large  w3-border w3-border-deep-purple  w3-round  w3-padding  w3-hover-deep-purple menu_button ">Вкусняшки</a>
+        </div>  
+    </nav>
+    <div id="div" class="w3-container"><br></div>
+    <main id="main" class="w3-container">
+        <div id="flow2" class="w3-flex main_flex">
+            <div w3-repeat="flow2" class="  w3-card-4 main_flex_div w3-panel w3-round-xlarge">
+                <p class="w3-center w3-deep-purple w3-round w3-padding">номер лота - {{number}}</p>
+                <img src="{{img}}" alt="" class="w3-round-xlarge " onclick="model_im('{{img}}')">
+                <p class="w3-large w3-cursive">{{opis}}</p>
+                <p class="w3-center w3-xlarge">{{price}}</p>
+                <p class="w3-center"><button class="w3-button w3-padding-large w3-border w3-border-deep-purple w3-round w3-deep-purple"  
+                    onclick="modelZakaz('{{img}}','{{opis}}','{{price}}','{{number}}')">заказать</button>
+            </div>
+        </div>
+    </main>
+    <div  id="model_img" class="w3-modal w3-white" w3-include-html="content/windows.html"></div>
+    <div  id="model_zakaz" class="w3-modal w3-sand" w3-include-html="content/windZakaz.html"></div>
+<script src="/js/flow2.js" defer></script>
+<script src="/js/js.js" defer></script>
+</body>
+</html>
