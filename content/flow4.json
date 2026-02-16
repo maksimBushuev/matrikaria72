@@ -1,0 +1,13 @@
+{
+  "flow4": [
+    {"img": "/img/flow4/1.jpeg", "number": 3, "opis": "розы в оформлении", "price": 900},
+    {"img": "/img/flow4/1.jpeg", "number": 5, "opis": "розы в оформлении", "price": 900},
+    {"img": "/img/flow4/1.jpeg", "number": 12, "opis": "розыы в оформлении", "price": 900},
+    {"img": "/img/flow4/1.jpeg", "number": 3, "opis": "розы в оформлении", "price": 900},
+    {"img": "/img/flow4/1.jpeg", "number": 5, "opis": "розы в оформлении", "price": 900},
+    {"img": "/img/flow4/1.jpeg", "number": 12, "opis": "розыы в оформлении", "price": 900},
+    {"img": "/img/flow4/1.jpeg", "number": 3, "opis": "розы в оформлении", "price": 900},
+    {"img": "/img/flow4/1.jpeg", "number": 5, "opis": "розы в оформлении", "price": 900},
+    {"img": "/img/flow4/1.jpeg", "number": 12, "opis": "розыы в оформлении", "price": 900}
+  ]
+}

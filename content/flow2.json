@@ -1,0 +1,13 @@
+{
+  "flow2": [
+    {"img": "/img/flow2/2.jpeg", "number": 3, "opis": "3 хризантемы букет", "price": 5000},
+    {"img": "/img/flow2/2.jpeg", "number": 5, "opis": "3 хризантемы букет", "price": 5000},
+    {"img": "/img/flow2/2.jpeg", "number": 12, "opis": "3 хризантемы букет", "price": 5000},
+    {"img": "/img/flow2/2.jpeg", "number": 3, "opis": "3 хризантемы букет", "price": 5000},
+    {"img": "/img/flow2/2.jpeg", "number": 5, "opis": "3 хризантемы букет", "price": 5000},
+    {"img": "/img/flow2/2.jpeg", "number": 12, "opis": "3 хризантемы букет", "price": 5000},
+    {"img": "/img/flow2/2.jpeg", "number": 3, "opis": "3 хризантемы букет", "price": 5000},
+    {"img": "/img/flow2/2.jpeg", "number": 5, "opis": "3 хризантемы букет", "price": 5000},
+    {"img": "/img/flow2/2.jpeg", "number": 12, "opis": "3 хризантемы букет", "price": 5000}
+  ]
+}
