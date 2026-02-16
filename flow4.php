@@ -33,7 +33,7 @@
     <main id="main" class="w3-container">
         <div id="flow4" class="w3-flex main_flex">
             <div w3-repeat="flow4" class="  w3-card-4 main_flex_div w3-panel w3-round-xlarge">
-                <p class="w3-center w3-deep-purple w3-round w3-padding">номер лота - {{number}}</p>
+                <p class="w3-center w3-deep-purple w3-round w3-padding">номер лота - <span class="w3-badge w3-pale-red">{{number}}</span></p>
                 <img src="{{img}}" alt="" class="w3-round-xlarge " onclick="model_im('{{img}}')">
                 <p class="w3-large w3-cursive">{{opis}}</p>
                 <p class="w3-center w3-xlarge">{{price}}</p>
@@ -49,3 +49,4 @@
 </body>
 
 </html>
+
