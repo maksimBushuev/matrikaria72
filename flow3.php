@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/w3.css">
     <link rel="stylesheet" href="/css/style.css">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body class="w3-sand">
     <!-- <header id="header" class="w3-row w3-padding w3-blue">
@@ -50,4 +51,5 @@
 </body>
 
 </html>
+
 
