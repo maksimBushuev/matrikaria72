@@ -21,6 +21,7 @@ function modelZakaz (img,opis,price,numer) {
     model_zakaz.style.display = 'block';
     document.getElementById('modalZakaz').src = `${img}`;
     document.getElementById('zakaz_numer').innerHTML = `${numer}`;
-    document.getElementById('zakaz_price').innerHTML = `ИТОГО : <span class='w3-xlarge'>${priz}</span> р.`;
+    document.getElementById('zakaz_price').innerHTML = `ИТОГО : <span class='w3-xlarge'>${price}</span> р.`;
 
 }
+
