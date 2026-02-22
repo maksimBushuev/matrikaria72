@@ -18,10 +18,12 @@ function model_im(userName) {
 //     // document.getElementById('asa').src = ``;
 // })
 function modelZakaz (img,opis,price,numer) {
-    model_zakaz.style.display = 'block';
+     model_zakaz.style.display = 'block';
     document.getElementById('modalZakaz').src = `${img}`;
     document.getElementById('zakaz_numer').innerHTML = `${numer}`;
     document.getElementById('zakaz_price').innerHTML = `ИТОГО : <span class='w3-xlarge'>${price}</span> р.`;
+    document.getElementById('nazvan').innerHTML = `<span class='w3-large'>${nazvan}</span>`;
 
 }
+
 
