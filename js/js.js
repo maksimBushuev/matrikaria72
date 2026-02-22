@@ -17,7 +17,7 @@ function model_im(userName) {
 //     model_img.style.display='none';
 //     // document.getElementById('asa').src = ``;
 // })
-function modelZakaz (img,opis,price,numer) {
+function modelZakaz (img,nazvan,price,numer) {
      model_zakaz.style.display = 'block';
     document.getElementById('modalZakaz').src = `${img}`;
     document.getElementById('zakaz_numer').innerHTML = `${numer}`;
@@ -25,5 +25,6 @@ function modelZakaz (img,opis,price,numer) {
     document.getElementById('nazvan').innerHTML = `<span class='w3-large'>${nazvan}</span>`;
 
 }
+
 
 
