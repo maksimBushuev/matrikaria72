@@ -1,13 +1,6 @@
 {
   "flow4": [
-    {"img": "/img/flow4/1.jpeg", "number": 3, "opis": "розы в оформлении", "price": 900},
-    {"img": "/img/flow4/1.jpeg", "number": 5, "opis": "розы в оформлении", "price": 900},
-    {"img": "/img/flow4/1.jpeg", "number": 12, "opis": "розыы в оформлении", "price": 900},
-    {"img": "/img/flow4/1.jpeg", "number": 3, "opis": "розы в оформлении", "price": 900},
-    {"img": "/img/flow4/1.jpeg", "number": 5, "opis": "розы в оформлении", "price": 900},
-    {"img": "/img/flow4/1.jpeg", "number": 12, "opis": "розыы в оформлении", "price": 900},
-    {"img": "/img/flow4/1.jpeg", "number": 3, "opis": "розы в оформлении", "price": 900},
-    {"img": "/img/flow4/1.jpeg", "number": 5, "opis": "розы в оформлении", "price": 900},
-    {"img": "/img/flow4/1.jpeg", "number": 12, "opis": "розыы в оформлении", "price": 900}
+    {"img": "/img/flow4/400.jpg", "nazvan":"шарик сердце", "number": 3, "opis": "Сердце фольгированное. Диаметр 40см", "price": 320},
+    {"img": "/img/flow4/401.jpg", "nazvan":"шарик сердце", "number": 5, "opis": "Шар фольгированный Сердце на подставке. Высота 1.40 см", "price": 500}
   ]
 }
