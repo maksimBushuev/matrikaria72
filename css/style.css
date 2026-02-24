@@ -37,6 +37,7 @@
 }
 .main_flex_div > img{
     width: 100%;
+    cursor: pointer;
 }
 /* w3-modal-content */
 #model_img {
@@ -48,4 +49,5 @@
 }
 #w3-modalZakaz{
     background-color: rgb(246, 240, 255);
+
 }
