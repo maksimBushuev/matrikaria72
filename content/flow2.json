@@ -1,5 +1,5 @@
 {
   "flow2": [
-    {"img": "/img/flow2/200.jpg", "nazvan":"Штучные цветы", "number": 200, "opis": "Розовая французская роза", "price": 470}
+    {"img": "/img/flow2/200.jpg", "nazvan":"Штучные цветы", "number": 200, "opis": "Розовая французская роза", "price": 470, "pokaz":"y"}
   ]
 }
