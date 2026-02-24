@@ -6,7 +6,7 @@ let model_zakaz = document.getElementById('model_zakaz');
 
 function model_im(userName) {
     // Теперь userName содержит текст из той карточки, по которой кликнули
-    alert("Вы выбрали пользователя: " + userName);
+    // alert("Вы выбрали пользователя: " + userName);
     // console.log("Данные для обработки:", userName);
     // Здесь ты можешь, например, записать это имя в localStorage
     // localStorage.setItem('selectedUser', userName);
@@ -25,6 +25,7 @@ function modelZakaz (img,nazvan,price,numer) {
     document.getElementById('nazvan').innerHTML = `<span class='w3-large'>${nazvan}</span>`;
 
 }
+
 
 
 
